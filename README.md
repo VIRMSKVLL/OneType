@@ -35,3 +35,9 @@ Blip Pitch Ranges | modified in the config, allows you to set the pitch randomiz
 * Spamming an event that has dialogue will cause the text to render without the window and softlock all movement until the event is re-interacted with (this doesn't apply to mashing through long cutscenes, just spamming for example a jar that has Niko comment on it having stuff in it and will never cause the player to get trapped beyond repair and shouldn't ever come up but it is an issue in the first place)
 
 * Solo choices that don't have a textbox to accomidate will interrupt the text box fading in for the following dialogue if there is no small wait on the next show message (though it's still mostly visible this is also another small issue that needs to be fixed)
+
+## Credits
+
+Script written up by @CryroFox, bits and tidbits of code are taken from the basegame for OneShot
+
+All I ask is for a small place somewhere in the credits, nothing big!
