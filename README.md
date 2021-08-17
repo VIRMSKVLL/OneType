@@ -38,6 +38,6 @@ Blip Pitch Ranges | modified in the config, allows you to set the pitch randomiz
 
 ## Credits
 
-Script written up by @CryroFox, bits and tidbits of code are taken from the basegame for OneShot
+Script written up by `Cryro#1492`, bits and tidbits of code are taken from the basegame for OneShot
 
 All I ask is for a small place somewhere in the credits, nothing big!
