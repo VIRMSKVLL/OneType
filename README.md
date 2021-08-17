@@ -10,9 +10,9 @@ The *main* goal of the new features is to reinforce expression in character spee
 ### New Control Characters
 Format | Function 
 ----|--------
- \f[#] | Applies the **Effect** with the given **ID** `(Defined in Config)`
- \s[#] | Changes the **Font Size**
- \b[#] | Changes the **Blip Sound** `(Defined in Config)`
+ \f[`#`] | Applies the **Effect** with the given **ID** `(Defined in Config)`
+ \s[`#`] | Changes the **Font Size**
+ \b[`#`] | Changes the **Blip Sound** `(Defined in Config)`
  \\*   | Auto-terminates the Message
 
 ### Misc Features
