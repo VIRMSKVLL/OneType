@@ -4,7 +4,7 @@
 
 ## Usage
 
-The *main* goal of the new features is to reinforce expression in character speech using new customizable text effects and extra tidbits of formatting
+The *main* goal of the new features is to reinforce expression in character speech using new customizable text effects and extra tidbits of formatting.
 
 
 ### New Control Characters
