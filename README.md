@@ -30,8 +30,6 @@ Blip Pitch Ranges | modified in the config, allows you to set the pitch randomiz
 
 * Message Choices write out like a normal message rather than instantly appearing
 
-* Message Box doesn't show the little arrow at the bottom of the window
-
 * Spamming an event that has dialogue will cause the text to render without the window and softlock all movement until the event is re-interacted with (this doesn't apply to mashing through long cutscenes, just spamming for example a jar that has Niko comment on it having stuff in it and will never cause the player to get trapped beyond repair and shouldn't ever come up but it is an issue in the first place)
 
 * Solo choices that don't have a textbox to accomidate will interrupt the text box fading in for the following dialogue if there is no small wait on the next show message (though it's still mostly visible this is also another small issue that needs to be fixed)
