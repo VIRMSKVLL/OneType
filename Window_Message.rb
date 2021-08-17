@@ -22,6 +22,7 @@ class Window_Message < Window_Selectable
 		@face.y = self.y + 16
 		@face.z = 9999
 		@face.opacity = 255
+		@freeze_face = false
 		
 		# * Text drawing flags
 		@text = nil
@@ -291,11 +292,19 @@ class Window_Message < Window_Selectable
 		blip
 		
 		if $game_temp.message_face != nil
-			if File.exist? "Graphics/Faces/#{$game_temp.message_face}_1.png"
+			if File.exist? "Graphics/Faces/#{$game_temp.message_face}_1.png" and @freeze_face == false
 				@face_frame += 0.2
-				@face_frame = 1 if !File.exist? "Graphics/Faces/#{$game_temp.message_face}_#{@face_frame.round}.png"
+				if !File.exist? "Graphics/Faces/#{$game_temp.message_face}_#{@face_frame.round}.png"
+					if File.exist? "Graphics/Faces/#{$game_temp.message_face}_#{@face_frame.round}_end.png"
+						face = RPG::Cache.face("#{$game_temp.message_face}_#{@face_frame.round}_end")
+						@face.bitmap = face
+						return @freeze_face = true
+					else
+						@face_frame = 1 
+					end
 				face = RPG::Cache.face("#{$game_temp.message_face}_#{@face_frame.round}")
 				@face.bitmap = face
+				end
 			end
 		end
 		
@@ -490,6 +499,7 @@ class Window_Message < Window_Selectable
 		
 		# Reset state
 		self.pause = false
+		@freeze_face = false
 		@text = nil
 		@choice_start = -1
 		@number_start = -1
