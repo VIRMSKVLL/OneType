@@ -1,4 +1,4 @@
-![](https://cdn.discordapp.com/attachments/853155888667164692/876975862698881064/OneType.png) 
+![](https://media.discordapp.net/attachments/564597182187962399/877020473035194378/OneType.png) 
 #### OneType is a mostly from the ground up re-write of `Window_Message.rb` from **OneShot** aimed at allowing developer configuration, and text animations! *(also includes `ED_Message.rb`)*
 
 
