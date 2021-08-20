@@ -29,6 +29,7 @@ class Ed_Message
     @characters = []
     @letters = {}
     @effect = 0
+	config
   end
   
   #--------------------------------------------------------------------------
@@ -147,9 +148,7 @@ class Ed_Message
         # Change text color
         text.sub!(/\[([0-9]+)\]/, "")
         color = $1.to_i
-        if color >= 0 and color <= 7
-          @contents.font.color = Window_Message.colours[color]
-        end
+        @color = @colours[color]
         # go to next text
         next
       end
