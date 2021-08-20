@@ -123,6 +123,22 @@ class Window_Message < Window_Selectable
 	# ? Read the Documentation for more info --> https://github.com/CryroFox/OneType/wiki/Config
 	# * -------------------------------------------------------------------------------------    
 	class Ed_Message
+		def config 
+			
+		# * \c[#] Colours
+		# -------------------#
+		@colours = [
+			Color.new(255, 255, 255, 255),		#> 0 <#
+			Color.new(255, 64, 64, 255),		#> 1 <#
+			Color.new(0, 224, 0, 255),		#> 2 <#
+			Color.new(255, 255, 0, 255),		#> 3 <#
+			Color.new(64, 64, 255, 255),		#> 4 <#
+			Color.new(255, 64, 255, 255),		#> 5 <#
+			Color.new(64, 255, 255, 255),		#> 6 <#
+			Color.new(128, 128, 128, 255),		#> 7 <#
+		]
+			
+		end
 		
 		# * Text Effects
 		# -------------------#
