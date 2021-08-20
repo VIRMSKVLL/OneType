@@ -21,7 +21,7 @@ class Window_Message < Window_Selectable
 		@colours = [
 			Color.new(255, 255, 255, 255),		#> 0 <#
 			Color.new(255, 64, 64, 255),		#> 1 <#
-			Color.new(0, 224, 0, 255),			#> 2 <#
+			Color.new(0, 224, 0, 255),		#> 2 <#
 			Color.new(255, 255, 0, 255),		#> 3 <#
 			Color.new(64, 64, 255, 255),		#> 4 <#
 			Color.new(255, 64, 255, 255),		#> 5 <#
