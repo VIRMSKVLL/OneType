@@ -2,10 +2,6 @@
 # * Window Message Config
 # ? Read the Documentation for more info --> https://github.com/CryroFox/OneType/wiki/Config
 # * -------------------------------------------------------------------------------------               
-
-# TODO add the little sprite cursor arrow at the bottom of the box :P
-
-
 class Window_Message < Window_Selectable
 	BLIP_TIME = 4
 	def config
